@@ -83,9 +83,3 @@ pip install -r scripts/requirements.txt
 - **找不到模块**：在项目根或 skill 目录执行 `pip install -r scripts/requirements.txt`
 - **编码**：导出 CSV 默认 `utf-8-sig`，Excel 可正确识别中文
 - **大文件**：可用 `openpyxl.load_workbook(..., read_only=True)` 或 pandas 分块
-
-## 发布与反馈
-
-- **发布到 ClawHub**：见 [PUBLISH.md](PUBLISH.md)
-- **先推 GitHub 再发布到 ClawHub**：见 [GITHUB_AND_CLAWHUB.md](GITHUB_AND_CLAWHUB.md)
-- 元数据与分类见 `clawhub.json`；问题与建议可通过 ClawHub 或仓库 issue 反馈
