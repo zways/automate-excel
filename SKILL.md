@@ -7,11 +7,6 @@ description: Automates reading, writing, merging, transforming, and validating E
 
 在用户需要处理 Excel 文件、表格数据、批量转换或报表生成时应用本 skill。
 
-## 如何使用本 skill
-
-**在 Cursor / OpenClaw 等环境中**：对话里提到 Excel、表格、.xlsx、合并、筛选、科学计数法等时，Agent 会加载本 skill，根据你的**具体需求**选择下面某个脚本执行，或给出等价代码。
-
-**如何知道用哪个脚本**：看下表「你的需求 → 用哪个脚本」。若需求是组合的（如先合并再筛选），可依次调用多个脚本或让 Agent 写一段脚本。
 
 | 你想做的事 | 调用的脚本 | 典型参数 |
 |------------|------------|----------|
