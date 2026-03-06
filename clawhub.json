@@ -1,0 +1,12 @@
+{
+  "name": "Automate Excel",
+  "tagline": "Automate reading, merging, transforming and validating Excel and CSV files",
+  "description": "This skill teaches the agent to automate Excel workflows: read and write .xlsx/.xls with openpyxl and pandas, merge multiple files or sheets, convert between Excel and CSV, validate columns and duplicate keys, and batch-process directories. Use when the user works with spreadsheets, .xlsx files, tabular data, or report generation.",
+  "category": "productivity",
+  "tags": ["excel", "spreadsheet", "automation", "data", "csv", "openpyxl", "pandas"],
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "support_url": "https://github.com/openclaw/clawhub/issues",
+  "homepage": "https://github.com/openclaw/clawhub"
+}

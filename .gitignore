@@ -1,0 +1,31 @@
+# 虚拟环境（本地 pip 安装，勿提交）
+.venv/
+venv/
+env/
+
+# 测试生成物（脚本跑测生成的 Excel/CSV）
+scripts/_test_out/
+
+# Python 字节码与缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# 环境变量与本地配置（若有敏感信息）
+.env
+.env.local
+*.local
